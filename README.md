@@ -56,6 +56,7 @@ SOFTWARE REQUIRED
 Git Repo has Backend and Frontend code
 
 The backend code fetches soil moisture values from the sensor and makes them available via an API. The backend side also interacts with the relay, which is responsible for turning the pump on or off. Both these functionalities have their separate APIs.
+
 The react frontend code fetches the soil moisture values through the API and displays them on the barometer. When the user hits the switch on/off button the respective APIs are hit, and the pump is switched on/off.
 
 To note: In this project since I am using the grove soil moisture sensor, I also had to set up the grove hat and the grove sensor environments. Please follow this link to find more information: https://wiki.seeedstudio.com/Grove-Moisture_Sensor/
