@@ -49,7 +49,7 @@ SOFTWARE REQUIRED
 
 # Setting Up The Hardware
 
-![N]("C:\Users\ASAVARI\Downloads\Soil Mositure Sensor Project.jpg")
+![N](images/Soil%20Mositure%20Sensor%20Project.jpg)
 
 # Code Structure
 
