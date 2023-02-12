@@ -1,4 +1,4 @@
-## Smart Drip Irrigation for Home Gardens
+## Smart Drip Irrigation System for Home Gardens
 
 by Asavari Deshmukh, XII Grade, Pune, India
 
