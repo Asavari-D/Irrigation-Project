@@ -55,16 +55,8 @@ SOFTWARE REQUIRED
 
 # Setting Up The Hardware
 
-![N](https://html.scirp.org/file/83708x2.png)
-![N](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2tQjCpfAJI9J3jr9dB-yykRoVxUlrJPl48XgHxyVXyRI2z1J2W1VwH5ITiO5VHZXnSY&usqp=CAU)
+![N]("C:\Users\ASAVARI\Downloads\Soil Mositure Sensor Project.jpg")
 
-# Wiring layout
-
-![N](https://content.instructables.com/FS9/1FDF/K8P6TQHZ/FS91FDFK8P6TQHZ.jpg?auto=webp&fit=bounds&frame=1&width=1024)
-
-# Software Block Diagram
-
-![N](https://amlanscloud.com/static/e45b55503ff9b29df9c41ebb7cf301b4/1ca7d/appcomponents.png)
 
 # Code Structure
 
