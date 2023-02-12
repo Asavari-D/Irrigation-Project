@@ -11,23 +11,19 @@ Tech specifcation: ["Python", "React-Native"]
 
 # Introduction
 
-“For the things we have to learn before we can do them, we learn by doing them.”
-― Aristotle
-
-Abstract
-As a XII Grader and looking forward to join ECE programs, IoT and Automation was always subject of curiosity for me. Having handle on differnt python projects, it was time to explore round trip for a Automated and Integrated Hardware / Software Project.
-Keeping track of the watering of our terrace garden was one of the issues we usually encountered. It was also always a concern and worry, specially vacation times. So I started with idea of this mini project to monitor the real-time status of the plants with the help of moisture based sensor solutions and triggering drip watering system with the help of Mobile App.
+As an XII Grader and looking forward to joining ECE programs, IoT and Automation have always been topics of curiosity for me. After having done a few python projects, it was time to explore a round trip for an Automated and Integrated Hardware / Software Project.
+During vacations watering our terrace plants was one of the problems we encountered. So I started with this project to monitor the real-time status of the soil moisture levels of the plants with the help of sensors and initiate a drip irrigation system with the help of a Mobile App.
 
 Overall Flow of Integrated System
-When the system begins to run the program, it will keep on checking soil mositure periodically with the help of soil moisture sensor. If plants doesn’t have any moisture in the soil, notification will be sent to User and also if seetings have benn set to AUTO, motor turned on and water get passed to Drip Irrigation Setup for Terrace Garden. Then priority hands over back to soil mositure sensor, if the mositure level reaches the threshold, motor get turned off. Water Pump on and Off functions will be managed manually as well with the help of React Native Mobile Interface. So Raspberry Pi based system of sensor and relay makes watering system to be autonomous.
+Firstly, I have connected a soil moisture sensor to the Raspberry Pi microprocessor. When the system begins to run the program, it will check soil moisture periodically with the help of the soil moisture sensor. If plants have moisture levels below the threshold value, they will be indicated on the barometer on the mobile app. The user can turn on the motor pump using the mobile app itself. Once the values go above the threshold, the user can turn off the motor pump using the switch-off button on the app.
 
 # List of Project Elements
 
 HARDWARE
 
 - Raspberry Pi
-- Power supply
-- Soil Moisture sensor
+- Grove Hat
+- Grove Soil Moisture sensor
 - Relay
 - Jumper wires
 - 3.7 V Battery with Case
@@ -37,13 +33,11 @@ HARDWARE
   - 4mm Water Pipe
   - Water Pipe Connectors
 
-![N](https://m.media-amazon.com/images/I/7145s6jpF7L._SX522_.jpg)
-
 SOFTWARE REQUIRED
 
 - Raspbian OS
 - Python 3
-- Python Libraries
+- Libraries:
   - Grove PI
   - Time
   - Flask
@@ -56,7 +50,6 @@ SOFTWARE REQUIRED
 # Setting Up The Hardware
 
 ![N]("C:\Users\ASAVARI\Downloads\Soil Mositure Sensor Project.jpg")
-
 
 # Code Structure
 
