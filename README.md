@@ -55,16 +55,11 @@ SOFTWARE REQUIRED
 
 Git Repo has Backend and Frondend code
 
-Backend code is to detect sensor vales and set them with flask api. These operations will be done with python 3 on rasberry pi. once Api are ready they can be accessed from React Frontend.
+The backend code fetches soil moisture values from the sensor and makes them available via an API. The backend side also interacts with the relay, which is responsible for turning the pump on or off. Both these functionalities have their separate APIs.
+The react frontend code fetches the soil moisture values through the API and displays them on the barometer. When the user hits the switch on/off button, the respective APIs are hit and the pump is switched on/off.
 
-To set up React project,
+To note: In this project since I am using the grove soil moisture, I also had to set up the grove hat and the grove sensor environments. Please follow this link to find more information: https://wiki.seeedstudio.com/Grove-Moisture_Sensor/
 
-<code> npm i
-<br>
-<code> npx react-native run-android // for android mobile app
-<br>
-<code> npx react-native run-ios // for ios mobile app
-
-once mobile app is up and running on mobile phone,
+The code files can be found in this project repository.
 
 ![N](https://www.raspberrypi.org/app/uploads/2017/06/Powered-by-Raspberry-Pi-Logo_Outline-Colour-Screen-500x153.png)
