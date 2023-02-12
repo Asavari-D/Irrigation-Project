@@ -61,5 +61,3 @@ The react frontend code fetches the soil moisture values through the API and dis
 To note: In this project since I am using the grove soil moisture, I also had to set up the grove hat and the grove sensor environments. Please follow this link to find more information: https://wiki.seeedstudio.com/Grove-Moisture_Sensor/
 
 The code files can be found in this project repository.
-
-![N](https://www.raspberrypi.org/app/uploads/2017/06/Powered-by-Raspberry-Pi-Logo_Outline-Colour-Screen-500x153.png)
